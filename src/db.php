@@ -1,9 +1,12 @@
 <?php
 
 function execc($SQL,$params) {
+  $mysql_user = $_ENV["MYSQL_USER"];
+  $mysql_password = $_ENV["MYSQL_PASSWORD"];
+  $mysql_db =  $_ENV["MYSQL_DATABASE"];  
   try {
  
-  $connect = new PDO('mysql:host=192.168.0.30:3307;dbname=test; charset: utf8', 'admin', '123456');
+  $connect = new PDO('mysql:host=mysql:3306;dbname='.$mysql_db.'; charset: utf8', $mysql_user, $mysql_password);
   // $connect->exec("SET NAMES 'utf8';"); //если не прописано, в настройках Докера: command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']
 
   $data = $connect->prepare($SQL);
