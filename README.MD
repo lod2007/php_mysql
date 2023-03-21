@@ -9,12 +9,17 @@
 ![WordPress Plugin Version](https://img.shields.io/badge/mysql-5.7-green)
 ![WordPress Plugin Version](https://img.shields.io/badge/php-7.2-green)
 
-
 Сервисы связаны между собой, поэтому в данном проекте можно вести локальную разработку на PHP используя MYSQL в качестве БД.
 
 Проект расчитан на начальный уровень подготовки и не требует особых занний сервисов.
 
+Как установить Docker на свой компьютер смотрите тут: [Установка Docker Engine и Docker Compose на Linux Mint](https://github.com/lod2007/pyspark#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-docker-engine-%D0%B8-docker-compose-%D0%BD%D0%B0-linux-mint)
+
 ### Подготовка
+
+Для получения копии этого проекта необходимо клонировать проект к себе на машину командой:
+
+    $git clone https://github.com/lod2007/php_mysql.git
 
 В корне проекта создать файл с переменными окружения .env:
 
