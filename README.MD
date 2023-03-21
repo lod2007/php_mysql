@@ -4,6 +4,7 @@
  - Nginx
  - MySQL
  - PHP
+
 ![WordPress Plugin Version](https://img.shields.io/badge/nginx-latest-green)
 ![WordPress Plugin Version](https://img.shields.io/badge/mysql-5.7-green)
 ![WordPress Plugin Version](https://img.shields.io/badge/php-7.2-green)
